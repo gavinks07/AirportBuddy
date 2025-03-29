@@ -45,6 +45,13 @@ document.getElementById("airportCodeInput").addEventListener("keypress", functio
     }
 });
 
+// Limit the input to 4 characters and allow only letters and numbers
+document.getElementById("airportCodeInput").addEventListener("input", function(event) {
+    const input = event.target.value;
+    const sanitizedInput = input.replace(/[^A-Za-z0-9]/g, "").slice(0, 4); // Allow only letters and numbers, max 4 characters
+    event.target.value = sanitizedInput;
+});
+
 // Register Service Worker
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register("service-worker.js")
