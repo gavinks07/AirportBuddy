@@ -1,11 +1,11 @@
-const CACHE_NAME = "airport-buddy-cache-v1";
+const CACHE_NAME = "airport-buddy-cache-v1"; 
 const urlsToCache = [
     "./index.html",
     "./styles.css",
     "./app.js",
     "./airports.json",
     "./manifest.json",
-    "./icon-192.png",
+    "./images/icon-192.png",
     "./images/icon-512.png"
 ];
 
