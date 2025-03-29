@@ -12,14 +12,16 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Airport Buddy">
-    <link rel="apple-touch-icon" href="/icon-192.png">
+    
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="/images/icon-180.png"> <!-- Make sure this path is correct -->
     
     <script defer src="app.js"></script>
 </head>
 <body>
     <div class="container">
         <h1>Airport Buddy</h1>
-        <input type="text" id="airportCodeInput" placeholder="Enter ICAO or IATA code (e.g., JFK, KJFK)" autofocus>
+        <input type="text" id="airportCodeInput" placeholder="Enter ICAO or IATA code (e.g., SLC, KSLC)" autofocus>
         <button id="searchButton">Search</button>
         <p id="result"></p>
     </div>
