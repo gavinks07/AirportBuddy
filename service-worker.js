@@ -5,7 +5,7 @@ const urlsToCache = [
     "./app.js",
     "./airports.json",
     "./manifest.json",
-    "./images/icon-192.png",
+    "./icon-192.png",
     "./images/icon-512.png"
 ];
 
